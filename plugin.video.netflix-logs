@@ -1,32 +1,30 @@
-2020-09-24 19:15:43.226 T:1435480960   ERROR: EXCEPTION: Invalid setting type
-2020-09-24 19:15:43.227 T:1435480960  NOTICE: [script.module.inputstreamhelper] Widevine update check was made on 2020-09-04 22:36
-2020-09-24 19:15:43.672 T:1937461264  NOTICE: VideoPlayer::OpenFile: plugin://plugin.video.netflix/play/show/80025172/season/80101272/episode/80101276/?profile_guid=DTRI6IRDVZBPRBDLUIMR3VUCJA
-2020-09-24 19:15:43.677 T:1370170240  NOTICE: Creating InputStream
-2020-09-24 19:15:43.700 T:1370170240   ERROR: GetDirectory - Error getting /usr/lib/kodi/addons/inputstream.adaptive/
-2020-09-24 19:15:45.645 T:1370170240  NOTICE: Creating Demuxer
-2020-09-24 19:15:45.647 T:1370170240  NOTICE: Opening stream: 1001 source: 256
-2020-09-24 19:15:45.706 T:1370170240  NOTICE: Whitelist search for: width: 1280, height: 720, fps: 23.976, 3D: false
-2020-09-24 19:15:45.708 T:1370170240  NOTICE: Display resolution ADJUST : 1360x768 (1360x768) @ 59.94 - Full Screen (23) (weight: 0.000)
-2020-09-24 19:15:45.800 T:1937461264  NOTICE: VideoPlayer: OnLostDisplay received
-2020-09-24 19:15:45.800 T:1937461264 WARNING: CDVDMessageQueue(audio)::Put MSGQ_NOT_INITIALIZED
-2020-09-24 19:15:45.800 T:1937461264 WARNING: CDVDMessageQueue(video)::Put MSGQ_NOT_INITIALIZED
-2020-09-24 19:15:45.966 T:1937461264  NOTICE: VideoPlayer: OnResetDisplay received
-2020-09-24 19:15:45.967 T:1937461264 WARNING: CDVDMessageQueue(audio)::Put MSGQ_NOT_INITIALIZED
-2020-09-24 19:15:45.967 T:1937461264 WARNING: CDVDMessageQueue(video)::Put MSGQ_NOT_INITIALIZED
-2020-09-24 19:15:45.974 T:1370170240  NOTICE: Creating video codec with codec id: 27
-2020-09-24 19:15:45.988 T:1370170240  NOTICE: Creating video thread
-2020-09-24 19:15:45.988 T:1411380096  NOTICE: running thread: video_thread
-2020-09-24 19:15:45.989 T:1370170240  NOTICE: Opening stream: 1006 source: 256
-2020-09-24 19:15:46.011 T:1370170240  NOTICE: Finding audio codec for: 86018
-2020-09-24 19:15:46.013 T:1370170240  NOTICE: CDVDAudioCodecFFmpeg::Open() Successful opened audio decoder aac
-2020-09-24 19:15:46.013 T:1370170240  NOTICE: Creating audio thread
-2020-09-24 19:15:46.013 T:1336599424  NOTICE: running thread: CVideoPlayerAudio::Process()
-2020-09-24 19:15:46.015 T:1370170240  NOTICE: Opening stream: 1014 source: 256
-2020-09-24 19:15:46.206 T:1336599424  NOTICE: CDVDAudioCodecFFmpeg::Open() Successful opened audio decoder aac
-2020-09-24 19:15:46.207 T:1336599424  NOTICE: Creating audio stream (codec id: 86018, channels: 2, sample rate: 48000, no pass-through)
-2020-09-24 19:15:46.539 T:1937461264  NOTICE: Whitelist search for: width: 1280, height: 720, fps: 23.976, 3D: false
-2020-09-24 19:15:46.541 T:1937461264  NOTICE: Display resolution ADJUST : 1360x768 (1360x768) @ 59.94 - Full Screen (23) (weight: 0.000)
-2020-09-24 19:15:48.606 T:1536807808   ERROR: [plugin.video.netflix (0)] Traceback (most recent call last):
+2020-09-24 19:34:13.911 T:1501557632  NOTICE: Closing stream player 1
+2020-09-24 19:34:13.912 T:1501557632  NOTICE: Waiting for audio thread to exit
+2020-09-24 19:34:13.943 T:1344992128  NOTICE: thread end: CVideoPlayerAudio::OnExit()
+2020-09-24 19:34:13.944 T:1501557632  NOTICE: Closing audio device
+2020-09-24 19:34:13.997 T:1501557632  NOTICE: Deleting audio codec
+2020-09-24 19:34:13.997 T:1501557632  NOTICE: Opening stream: 1005 source: 256
+2020-09-24 19:34:14.167 T:1501557632  NOTICE: Finding audio codec for: 86018
+2020-09-24 19:34:14.169 T:1501557632  NOTICE: CDVDAudioCodecFFmpeg::Open() Successful opened audio decoder aac
+2020-09-24 19:34:14.169 T:1501557632  NOTICE: Creating audio thread
+2020-09-24 19:34:14.170 T:1336599424  NOTICE: running thread: CVideoPlayerAudio::Process()
+2020-09-24 19:34:14.170 T:1501557632  NOTICE: Opening stream: 1013 source: 256
+2020-09-24 19:34:15.316 T:1336599424  NOTICE: CDVDAudioCodecFFmpeg::Open() Successful opened audio decoder aac
+2020-09-24 19:34:15.316 T:1336599424  NOTICE: Creating audio stream (codec id: 86018, channels: 2, sample rate: 48000, no pass-through)
+2020-09-24 19:34:25.873 T:1501557632  NOTICE: Closing stream player 1
+2020-09-24 19:34:25.874 T:1501557632  NOTICE: Waiting for audio thread to exit
+2020-09-24 19:34:25.880 T:1336599424  NOTICE: thread end: CVideoPlayerAudio::OnExit()
+2020-09-24 19:34:25.880 T:1501557632  NOTICE: Closing audio device
+2020-09-24 19:34:25.930 T:1501557632  NOTICE: Deleting audio codec
+2020-09-24 19:34:25.930 T:1501557632  NOTICE: Opening stream: 1006 source: 256
+2020-09-24 19:34:25.958 T:1501557632  NOTICE: Finding audio codec for: 86018
+2020-09-24 19:34:25.960 T:1501557632  NOTICE: CDVDAudioCodecFFmpeg::Open() Successful opened audio decoder aac
+2020-09-24 19:34:25.961 T:1501557632  NOTICE: Creating audio thread
+2020-09-24 19:34:25.961 T:1344992128  NOTICE: running thread: CVideoPlayerAudio::Process()
+2020-09-24 19:34:25.961 T:1501557632  NOTICE: Opening stream: 1014 source: 256
+2020-09-24 19:34:27.181 T:1344992128  NOTICE: CDVDAudioCodecFFmpeg::Open() Successful opened audio decoder aac
+2020-09-24 19:34:27.182 T:1344992128  NOTICE: Creating audio stream (codec id: 86018, channels: 2, sample rate: 48000, no pass-through)
+2020-09-24 19:35:09.483 T:1536807808   ERROR: [plugin.video.netflix (0)] Traceback (most recent call last):
                                               File "/storage/.kodi/addons/plugin.video.netflix/resources/lib/services/msl/events_handler.py", line 154, in callback_event_video_queue
                                                 self.add_event_to_queue(data['event_type'], data['event_data'], data['player_state'])
                                               File "/storage/.kodi/addons/plugin.video.netflix/resources/lib/services/msl/events_handler.py", line 179, in add_event_to_queue
